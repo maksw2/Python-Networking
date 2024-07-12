@@ -36,7 +36,7 @@ class Client:
            
                 
     def send_msg(self):
-        #the user can send the messages as long the user is connected to the chat room aka sthe Server 
+        #the user can send the messages as long the user is connected to the chat room aka the Server 
         while True:
             #the message will be sent in the form of username : Message  
             message=f'{self.username}: {input(">>")}'
